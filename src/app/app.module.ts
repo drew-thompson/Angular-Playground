@@ -19,7 +19,7 @@ import { MaterialModule } from './shared/modules/material.module';
   declarations: [AppComponent],
   imports: [
     AppRoutingModule,
-    BrowserModule.withServerTransition({ appId: 'angular-playground' }),
+    BrowserModule.withServerTransition({ appId: 'angular-starter' }),
     BrowserAnimationsModule,
     FontAwesomeModule,
     MaterialModule,

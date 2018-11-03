@@ -1,5 +1,5 @@
 {
-  "name": "angular-playground",
+  "name": "angular-starter",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -11,7 +11,7 @@
     "compile:server": "webpack --config webpack.server.config.js --progress --colors",
     "serve:ssr": "node dist/server",
     "build:ssr": "npm run build:client-and-server-bundles && npm run compile:server",
-    "build:client-and-server-bundles": "ng build --prod && ng run angular-playground:server:production"
+    "build:client-and-server-bundles": "ng build --prod && ng run angular-starter:server:production"
   },
   "private": true,
   "dependencies": {
