@@ -6,8 +6,8 @@ import { ActionReducer, ActionReducerMap, MetaReducer } from '@ngrx/store';
  * ensure that none of the reducers accidentally mutates the state.
  */
 import { storeFreeze } from 'ngrx-store-freeze';
-import { RouterStateUrl } from 'src/app/shared/utils';
-import { environment } from 'src/environments/environment';
+import { RouterStateUrl } from '../../shared/utils';
+import { environment } from '../../../environments/environment';
 
 export interface State {
   routerReducer: fromRouter.RouterReducerState<RouterStateUrl>;
